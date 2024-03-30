@@ -73,7 +73,7 @@ const Footer = (props: Props) => {
             <ul className="space-y-4">
               <li>
                 <Link
-                  href="https://www.youtube.com/channel/UCHz6Sne9splmvm-q2w1_HWQ"
+                  href="https://www.youtube.com/"
                   className="text-base text-black dark:text-gray-300 dark:hover:text-white"
                 >
                   Youtube
@@ -81,7 +81,7 @@ const Footer = (props: Props) => {
               </li>
               <li>
                 <Link
-                  href="https://www.instagram.com/shahriar_sajeeb_/"
+                  href="https://www.instagram.com/yash_ghugardare/"
                   className="text-base text-black dark:text-gray-300 dark:hover:text-white"
                 >
                   Instagram
@@ -89,7 +89,7 @@ const Footer = (props: Props) => {
               </li>
               <li>
                 <Link
-                  href="https://www.github.com/shahriarsajeeb"
+                  href="https://github.com/yghugardare/Elearning"
                   className="text-base text-black dark:text-gray-300 dark:hover:text-white"
                 >
                   github
@@ -100,11 +100,11 @@ const Footer = (props: Props) => {
           <div>
             <h3 className="text-[20px] font-[600] text-black dark:text-white pb-3">Contact Info</h3>
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white pb-2">
-            Call Us: 1-885-665-2022
+            Call Us: +91 - 9373642448
             </p>
            
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white pb-2">
-            Address: +7011 Vermont Ave, Los Angeles, CA 90044
+            Address: Pune,Maharashtra,Warje 411058
             </p>
          
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white  pb-2">
