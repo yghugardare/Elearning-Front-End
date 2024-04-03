@@ -21,7 +21,7 @@ const Page = () => {
       <Image width={250} height={200} src={"/assests/AIBot.jpg"} alt={"BOT"} />
       <form
         onSubmit={handleSubmit}
-        className="md:h-[30%] h-[30%] w-[60%] md:w-[40%] bg-[#30426E] p-4 flex flex-col justify-center md:p-10 rounded-lg"
+        className="md:h-[30%] h-[30%] w-[60%] md:w-[40%] bg-white text-black dark:text-white dark:bg-[#30426E] p-4 flex flex-col justify-center md:p-10 rounded-lg"
       >
         <label className={`${styles.label} !text-xl`} htmlFor="video">
           Enter Name of the video
