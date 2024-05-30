@@ -129,7 +129,7 @@ const CourseContent: FC<Props> = ({
   return (
     <div className="w-[80%] m-auto mt-24 p-3">
       <a
-        href="http://3.145.11.146:8501/"
+        href="http://13.48.49.223:8501"
         className="p-2 bg-blue-500 rounded-md"
         target="_blank"
       >
