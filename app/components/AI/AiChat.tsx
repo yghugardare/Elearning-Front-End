@@ -40,7 +40,9 @@ const AiChat: FC<Props> = ({ videoName }) => {
   const [courseName, setCourseName] = useState<string | undefined>("");
   const [err, setErr] = useState<string | null>(null);
   const MODEL_NAME = "gemini-1.0-pro-001";
-  const API_KEY = "AIzaSyBTFD1gqjU7NPBnPX88RiFBC3kQSDVqy2c";
+  
+  // const API_KEY = "AIzaSyBTFD1gqjU7NPBnPX88RiFBC3kQSDVqy2c";
+  const API_KEY:string = "AIzaSyBEk4lQbjRadt1GL293CMv74OtiYdwheck";
   const genAI = new GoogleGenerativeAI(API_KEY);
   const courseId = useParams();
   const [getTranscript, { data, isLoading, error }] =
